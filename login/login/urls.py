@@ -22,5 +22,6 @@ urlpatterns = [
     path('',views.SignUp,name="signup"),
     path('login',views.LogIn,name="login"),
     path('home',views.HomePage,name="home"),
+    path('logout',views.logoutPage,name="logout"),
 
 ]
