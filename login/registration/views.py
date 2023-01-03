@@ -15,7 +15,6 @@ def SignUp(request):
         email = request.POST.get('email')
         pass1 = request.POST.get('password1')
         pass2 = request.POST.get('password2')
-        # print(uname,email,pass1,pass2)
         if pass1!=pass2:
             return HttpResponse("Your Password and confirm is not same")
         else:
